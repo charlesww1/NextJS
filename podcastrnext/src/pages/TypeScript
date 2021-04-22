@@ -1,0 +1,46 @@
+/*
+type User = {
+    name: string;
+    adress: {
+        city: string;
+        state: string;
+    }
+}
+
+// Retornar o texo de boas-vindas do site
+function createWelcomeMessage(user: User){
+    return `Boas-vindas, ${user.name}. Cidade: ${user.adress.city} - ${user.adress.state}`
+}
+
+const welcomeMessage = createWelcomeMessage({
+    name: 'Charles Oliveira',
+    adress: {
+        city: 'Rio de Janeiro',
+        state: 'RJ'
+    }
+
+})
+
+// Tipagem das propriedades
+
+type ButtonProps = {
+    title: string;
+}
+
+    function Button(props: ButtonProps) {
+        return(
+            <button>{props.title}</button>
+        )
+    }
+
+    function App(){
+        return(
+            <div>
+                <button title="Button 1" />
+                <button title="Button 2" />
+                <button title="Button 3" />
+            </div>
+        )
+    }
+
+*/
